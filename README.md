@@ -68,4 +68,5 @@ The gem is available as open source under the terms of the [MIT License](http://
 ## Related Projects
 
 * [sotojuan/is-pokemon-go-up](https://github.com/sotojuan/is-pokemon-go-up) - A Node module that was the inspiration for this.
+* [sotojuan/is-pokemon-go-up-cli](https://github.com/sotojuan/is-pokemon-go-up-cli) - CLI version of sotojuan's node module.
 
