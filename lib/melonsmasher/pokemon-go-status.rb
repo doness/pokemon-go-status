@@ -1,7 +1,7 @@
-require 'melonsmasher/pokemon_go_status/version'
+require 'melonsmasher/pokemon-go-status/version'
 require 'net/http'
 
-module Pokemon_Go_Status
+module PokemonGoStatus
   class Status
 
     def interpret_response_average avg_ms

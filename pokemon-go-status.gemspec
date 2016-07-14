@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'melonsmasher/pokemon_go_status/version'
+require 'melonsmasher/pokemon-go-status/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "pokemon-go-status"
-  spec.version       = '0.0.3'
+  spec.version       = '0.0.4'
   spec.authors       = ["Alex Markessinis"]
   spec.email         = ["markea125@gmail.com"]
 

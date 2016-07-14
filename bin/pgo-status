@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
 
 require "bundler/setup"
-require "melonsmasher/pokemon_go_status"
+require "melonsmasher/pokemon-go-status"
 
-status = Pokemon_Go_Status::Status.new
+status = PokemonGoStatus::Status.new
 info = status.get_server_status 'https://pgorelease.nianticlabs.com/plfe/'
 puts "#{info[:description]}\nAverage response time: #{info[:avg_ms]} ms."
 exit info[:exit_code]
