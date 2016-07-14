@@ -65,3 +65,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/melons
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
+## Related Projects
+
+* [sotojuan/is-pokemon-go-up](https://github.com/sotojuan/is-pokemon-go-up) - A Node module that was the inspiration for this.
+
