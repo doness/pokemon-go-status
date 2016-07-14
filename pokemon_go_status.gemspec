@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Alex Markessinis"]
   spec.email         = ["markea125@gmail.com"]
 
-  spec.summary       = "Can I catch'em all?!"
-  spec.description   = "A simple way to determine if Pokemon Go is available."
+  spec.summary       = %q{Can I catch'em all?!}
+  spec.description   = %q{A simple way to determine if Pokemon Go is available.}
   spec.homepage      = "https://github.com/MelonSmasher/pokemon-go-status"
   spec.license       = "MIT"
 
@@ -23,8 +23,8 @@ Gem::Specification.new do |spec|
   end
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
-  spec.bindir        = "exe"
-  spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
+  spec.bindir        = "bin"
+  spec.executables   = ["pgo-status"]
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.12"
