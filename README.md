@@ -7,7 +7,7 @@ A simple gem that will tell you if Pokemon Go is available.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'pokemon-go-status'
+gem 'pokemon_go_status'
 ```
 
 And then execute:
@@ -16,11 +16,11 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install pokemon-go-status
+    $ gem install pokemon_go_status
 
 ## Usage
 
-    $ pokemon-go-status
+    $ pgo-status
 
 ## Contributing
 
