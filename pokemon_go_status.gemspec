@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'melonsmasher/pokemon_go_status/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "pokemon_go_status"
+  spec.name          = "pokemon-go-status"
   spec.version       = '0.0.2'
   spec.authors       = ["Alex Markessinis"]
   spec.email         = ["markea125@gmail.com"]
