@@ -67,6 +67,7 @@ The gem is available as open source under the terms of the [MIT License](http://
 
 ## Related Projects
 
+* [Zarthus/irc-pokemon-go-status](https://github.com/Zarthus/irc-pokemon-go-status) - An IRC bot that uses this gem to update people on the status of Pokemon Go.
 * [sotojuan/is-pokemon-go-up](https://github.com/sotojuan/is-pokemon-go-up) - A Node module that was the inspiration for this.
 * [sotojuan/is-pokemon-go-up-cli](https://github.com/sotojuan/is-pokemon-go-up-cli) - CLI version of sotojuan's node module.
 
