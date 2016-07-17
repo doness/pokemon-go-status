@@ -5,7 +5,7 @@ require 'melonsmasher/pokemon-go-status/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "pokemon-go-status"
-  spec.version       = '0.0.7'
+  spec.version       = '0.0.8'
   spec.authors       = ["Alex Markessinis"]
   spec.email         = ["markea125@gmail.com"]
 

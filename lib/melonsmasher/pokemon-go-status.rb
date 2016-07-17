@@ -46,18 +46,28 @@ module PokemonGoStatus
     def get_server_response_average url
       times = []
       total_time = 0
+
       (0..9).each do |i|
-        start = Time.now
-        Net::HTTP.get_response(URI(url))
-        finish = Time.now
-        response_time = (finish - start) * 1000
+        start_time = Time.now
+        begin
+          Net::HTTP.get_response(URI(url))
+        rescue
+          next
+        end
+        response_time = (Time.now - start_time) * 1000
         times[i] = response_time.round
         total_time = total_time + response_time.round
       end
-      total_time / times.count
+
+      begin
+        return total_time / times.count
+      rescue
+        return -1
+      end
+
     end
 
-    def get_server_status url = 'https://pgorelease.nianticlabs.com/plfe/'
+    def get_server_status url = 'https://pgorelease.nianticlabs.com/plfe'
       self.interpret_response_average self.get_server_response_average url
     end
 
